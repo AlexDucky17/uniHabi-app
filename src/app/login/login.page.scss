@@ -1,0 +1,72 @@
+ion-content.background{
+    --background: url(../../assets/home.jpg) 0 0/100% 100% no-repeat;
+}
+
+div {
+    justify-content: center;
+}
+
+ion-card-title{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+ion-card-subtitle{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+
+.button-login{
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    --border-radius: 20px;
+    --border-width: 1px;
+    cursor: pointer;
+}
+
+.button-clean{
+    padding: 0px 20px;
+    color: white;
+    border: none;
+    --border-radius: 20px;
+    --border-width: 1px;
+    cursor: pointer;
+}
+
+.input-login{
+  --border-radius: 30px;
+  --border-width: 1px;
+  --highlight-height: 0;
+    background-color: transparent;
+    border: 0px;
+    outline: none;
+    padding: 5px;
+}
+
+.card{
+    margin-right: auto; 
+    margin-left: auto; 
+    width: 300px; 
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); 
+    height: 480px; 
+    border-radius: 30px; 
+    backdrop-filter: blur(14px); 
+    background-color: rgba(255, 255, 255, 0.2); 
+    padding: 10px; 
+    text-align: center; 
+}
+
+.image-user{
+    height: 100px;
+    width: 100px;
+    display:block;
+    margin:auto;
+}

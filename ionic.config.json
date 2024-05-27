@@ -1,0 +1,7 @@
+{
+  "name": "UHApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
